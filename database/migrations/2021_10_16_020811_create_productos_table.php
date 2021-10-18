@@ -39,5 +39,6 @@ class CreateProductosTable extends Migration
     public function down()
     {
         Schema::dropIfExists('productos');
+     
     }
 }
