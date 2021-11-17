@@ -58,6 +58,7 @@ Route::middleware(['auth:sanctum'])->put('/api/factura/actualizar', [FacturaCont
 Route::middleware(['auth:sanctum'])->post('/api/factura/eliminar', [FacturaController::class, 'destroy']);
 
 Route::middleware(['auth:sanctum'])->get('/api/marca', [MarcaController::class, 'index'])->name('marca');
+Route::middleware(['auth:sanctum'])->post('/api/marca/getmarca', [MarcaController::class, 'getMarca']);
 Route::middleware(['auth:sanctum'])->post('/api/marca/registrar', [MarcaController::class, 'store']);
 Route::middleware(['auth:sanctum'])->put('/api/marca/actualizar', [MarcaController::class, 'update']);
 Route::middleware(['auth:sanctum'])->post('/api/marca/eliminar', [MarcaController::class, 'destroy']);

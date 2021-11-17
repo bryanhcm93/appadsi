@@ -26,6 +26,25 @@
                                  <jet-nav-link :href="route('categoria')" :active="route().current('categoria')">
                                     Categoria
                                 </jet-nav-link>
+
+                                 <jet-nav-link :href="route('marca')" :active="route().current('marca')">
+                                    Marcas
+                                </jet-nav-link>
+
+                                 <jet-nav-link :href="route('producto')" :active="route().current('producto')">
+                                    Productos
+                                </jet-nav-link>
+                                    <jet-nav-link :href="route('cliente')" :active="route().current('cliente')">
+                                    Clientes
+                                </jet-nav-link>
+                                    <jet-nav-link :href="route('factura')" :active="route().current('factura')">
+                                    Factura
+                                </jet-nav-link>
+                                    <jet-nav-link :href="route('vendedor')" :active="route().current('vendedor')">
+                                    Vendedores
+                                </jet-nav-link>
+
+
                             </div>
                         </div>
 
